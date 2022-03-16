@@ -12,8 +12,9 @@ import android.widget.Toast;
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 EditText username,password;
 Button login,cancel;
-    String un="admin";
-    String pwd="abc123";
+    String un;
+    String pwd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +23,6 @@ username=(EditText) findViewById(R.id.name_edit);
 password=(EditText) findViewById(R.id.pass_edit);
 login=(Button) findViewById(R.id.login_btn);
 cancel=(Button) findViewById(R.id.cancel_btn);
-
 //login.setOnClickListener(new View.OnClickListener() {
 //    @Override
 //    public void onClick(View view) {
@@ -36,7 +36,13 @@ cancel=(Button) findViewById(R.id.cancel_btn);
 //        }
 //    }
 //});
-
+        username.setEnabled(false);
+        password.setEnabled(false);
+Intent intentfromreg= getIntent();
+un=intentfromreg.getStringExtra("username");
+pwd=intentfromreg.getStringExtra("password");
+username.setText(un);
+password.setText(pwd);
 cancel.setOnClickListener(this);
 
 
@@ -45,9 +51,13 @@ cancel.setOnClickListener(this);
     public void LoginClick(View view) {
        String uname=username.getText().toString();
        String pname=password.getText().toString();
+
         if(uname.equals(un) && pname.equals(pwd)){
+
             Intent i=new Intent(getApplicationContext(),MainPageActivity.class);
-             startActivity(i);
+            i.putExtra("username",un);
+            startActivity(i);
+             //explicit intent
         }
         else
         {
@@ -58,5 +68,10 @@ cancel.setOnClickListener(this);
     @Override
     public void onClick(View view) {
         finish();
+    }
+
+    public void Clicktoreg(View view) {
+        Intent i=new Intent(getApplicationContext(),Registration.class);
+        startActivity(i);
     }
 }

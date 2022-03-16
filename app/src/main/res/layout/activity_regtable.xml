@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regtable">
+<TableRow
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TextView
+        android:layout_span="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="registration"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"/>
+</TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_span="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:inputType="text"
+            android:id="@+id/name_id"/>
+
+        <EditText
+            android:layout_span="1"
+            android:id="@+id/phone_id"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:hint="phone"
+            android:inputType="number" />
+    </TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_span="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="text"
+            android:id="@+id/email"/>
+
+        <EditText
+            android:layout_span="1"
+            android:id="@+id/pass"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword" />
+    </TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="gender"
+            android:textAllCaps="true"/>
+        <RadioButton
+            android:checked="true"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/male_id"/>
+
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/female_id"/>
+    </TableRow>
+</TableLayout>

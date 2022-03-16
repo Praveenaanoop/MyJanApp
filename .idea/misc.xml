@@ -3,7 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/drawable/circle.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_alert_dlg.xml" value="0.2296875" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_auto_text.xml" value="0.2296875" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_calculator.xml" value="0.1265625" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_custom_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_flag_iactivity.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_grid_image.xml" value="0.1" />
         <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_main_page.xml" value="0.2" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_progreebar.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_rating.xml" value="0.215625" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_regtable.xml" value="0.264" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_search_ex.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_seek_bar.xml" value="0.1" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/activity_simple_calculator.xml" value="0.1" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/calculator_layout.xml" value="0.1265625" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/country_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/fruits_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/grid_layout.xml" value="0.2" />
         <entry key="..\:/Users/ANOOP/AndroidStudioProjects/MyJanApp/app/src/main/res/layout/splash.xml" value="0.25" />
       </map>
     </option>
@@ -17,7 +36,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.1" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>

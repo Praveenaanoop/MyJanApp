@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myjanapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,14 +12,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyJanApp">
         <activity
+            android:name=".AlertDlgActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RatingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AutoTextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SearchExActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FlagIActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgreebarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeekBarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SimpleCalculator"
+            android:exported="true" />
+        <activity
+            android:name=".GridImageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomList"
+            android:exported="true" />
+        <activity
+            android:name=".Regtable"
+            android:exported="true" />
+        <activity
+            android:name=".Registration"
+            android:exported="true" />
+        <activity
             android:name=".MainPageActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Splash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/mytheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
