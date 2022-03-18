@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    tools:context=".AlertCustomActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/simple_btn"
+        android:onClick="simpleclick"
+        android:text="simple alert dialog"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/withitem_btn"
+    android:onClick="itemclick"
+    android:text="with items"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/multichoice_btn"
+        android:onClick="multiclick"
+        android:text="with multichoice items"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_btn"
+        android:onClick="editclick"
+        android:text="with edit text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_btn"
+        android:onClick="imageclick"
+        android:text="with image view"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek_btn"
+        android:onClick="seekclick"
+        android:text="With seek bar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating_btn"
+        android:onClick="ratingclick"
+        android:text="with rating"/>
+
+
+
+</LinearLayout>

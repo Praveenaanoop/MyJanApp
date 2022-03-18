@@ -40,7 +40,7 @@ ImageView image;
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(getApplicationContext(),AlertDlgActivity.class);
+                Intent i=new Intent(getApplicationContext(),SnackbarRActivity.class);
                startActivity(i);
                finish();
             }

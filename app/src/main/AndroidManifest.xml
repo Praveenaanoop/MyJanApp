@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyJanApp">
         <activity
+            android:name=".SnackbarRActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ToggleSwitchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlertCustomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VerticalScrollActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HorizontalScrollActivity"
+            android:exported="true" />
+        <activity
             android:name=".AlertDlgActivity"
             android:exported="true" />
         <activity
@@ -47,9 +65,9 @@
         <activity
             android:name=".Regtable"
             android:exported="true" />
-        <activity
-            android:name=".Registration"
-            android:exported="true" />
+<!--        <activity-->
+<!--            android:name=".Registration"-->
+<!--            android:exported="true" />-->
         <activity
             android:name=".MainPageActivity"
             android:exported="true" />
